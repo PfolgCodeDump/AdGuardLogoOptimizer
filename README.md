@@ -1,5 +1,10 @@
 # AdGuardLogoOptimizer
 
+>[!NOTE]
+>最优解决方案：https://github.com/PfolgCodeDump/AdGuardLogoOptimizer/issues/1
+>
+>The best solution is: https://github.com/PfolgCodeDump/AdGuardLogoOptimizer/issues/1
+
 一个轻量级的 Tampermonkey / Violentmonkey 用户脚本，通过直接删除 AdGuard 弹窗的 Shadow DOM 宿主元素来移除广告拦截器自带横幅。
 
 即使弹窗使用了**闭合的 Shadow DOM**，此脚本依然有效，因为它不需要操作阴影内部，只需移除包裹它的外层元素。
